@@ -1,9 +1,9 @@
 .line {
-  display: inline block;
-  padding: 10px;
+  margin-bottom: 10px;
+  padding: initial;
 }
 
 .field {
-  display: inline block;
-  margin-top: 20px;
+  padding-bottom: initial;
+  margin-bottom: 20px;
 }

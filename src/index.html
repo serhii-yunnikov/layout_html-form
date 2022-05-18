@@ -3,24 +3,27 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <meta 
+      name="viewport"
       content="width=device-width, 
-               user-scalable=no, 
-               initial-scale=1.0, 
-               maximum-scale=1.0, 
-               minimum-scale=1.0">
+              user-scalable=no, 
+              initial-scale=1.0, 
+              maximum-scale=1.0, 
+              minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.
-    com/create-application" 
-          method="post" 
-          autocomplete="off">
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.
+      com/create-application" 
+      method="post" 
+      autocomplete="off"
+    >
 
       <fieldset class="field">
 
@@ -28,25 +31,28 @@
 
         <div class="line">
           <label for="surname">Surname:</label>
-          <input id="surname" 
+          <input 
+            id="surname" 
             type="text" 
             name="surname" 
             minlength="2" 
             maxlength="20" 
             required 
-            tabindex="1">
+            tabindex="1"
+          >
         </div>
 
         <div class="line">
           <label for="name">Name:</label>
           <input 
-          id="name" 
-          type="text" 
-          name="name" 
-          minlength="2" 
-          maxlength="20" 
-          required 
-          tabindex="2">
+            id="name" 
+            type="text" 
+            name="name" 
+            minlength="2" 
+            maxlength="20" 
+            required 
+            tabindex="2"
+          >
         </div>
 
         <div class="line">
@@ -59,7 +65,8 @@
             min="1" 
             max="100" 
             maxlength="3" 
-            required>
+            required
+          >
         </div>
 
         <div class="line">
@@ -68,7 +75,8 @@
             id="birthday" 
             type="date" 
             name="burthDate" 
-            required>
+            required
+          >
         </div>
 
         <div class="line">
@@ -77,9 +85,10 @@
             id="term" 
             type="checkbox" 
             name="term" 
-            required>
+            required
+          >
         </div>
-
+        
       </fieldset>
 
       <fieldset class="field">
@@ -91,7 +100,8 @@
           <input 
             id="email" 
             type="email" 
-            placeholder="email@example.com">
+            placeholder="email@example.com"
+          >
         </div>
 
         <div class="line">
@@ -100,7 +110,8 @@
             id="password" 
             type="password" 
             name="password" 
-            required>
+            required
+          >
         </div>
 
       </fieldset>
@@ -115,13 +126,15 @@
             id="y" 
             type="radio" 
             name="loveCats" 
-            value="y">
+            value="y"
+          >
           <label for="y">Yes</label>
           <input 
             id="n" 
             type="radio" 
             name="loveCats" 
-            value="n">
+            value="n"
+          >
           <label for="n">No</label>
         </div>
 
@@ -131,7 +144,8 @@
             id="color" 
             type="color" 
             name="favoriteColor" 
-            value="#000000">
+            value="#000000"
+          >
         </div>
 
         <div class="line">
@@ -161,7 +175,8 @@
             name="rating" 
             min="0" 
             max="100" 
-            value="0">
+            value="0"
+          >
         </div>
       </fieldset>
 
@@ -188,7 +203,7 @@
       </fieldset>
 
       <div class="line"></div>
-      <button>Submit</button>
+      <button type="submit">Submit</button>
       </div>
 
     </form>
